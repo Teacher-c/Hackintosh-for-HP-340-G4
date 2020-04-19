@@ -1,0 +1,78 @@
+43:540  1:770  Found UEFI Acpi 2.0 RSDP at 7AEFE014
+43:540  0:000  Saving ACPI tables from RSDP 7AEFE014 to EFI\CLOVER\ACPI\origin ...
+43:540  0:000   7AEFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+43:543  0:002    (Xsdt: 7AEBC188, Rsdt: 7AEBC0C4)
+43:543  0:000    7AEBC188: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 260 -> XSDT.aml
+43:545  0:002    7AEBC0C4: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 148 -> RSDT.aml
+43:548  0:002    Tables in Xsdt: 28
+43:548  0:000    0. 7AEEA000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268 -> FACP.aml
+43:550  0:002        (Dsdt: 7AEC7000, Facs: 7AE7D000, XDsdt: 7AEC7000, XFacs: 0)
+43:550  0:000        7AEC7000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 129673 -> DSDT.aml
+43:558  0:007        7AE7D000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+43:561  0:002    1. 7AEFD000: 'UEFI', 'INSYDE', Rev: 1, Len: 566 -> UEFI.aml
+43:563  0:002    2. 7AEFC000: 'UEFI', 'INSYDE', Rev: 1, Len: 66 -> UEFI.aml
+43:567  0:004    3. 7AEF5000: 'SSDT', 'INSYDE', Rev: 1, Len: 25583 -> SSDT-0-INSYDE.aml
+43:570  0:002    4. 7AEF0000: 'SSDT', 'INSYDE', Rev: 2, Len: 12403 -> SSDT-1-INSYDE.aml
+43:573  0:002    5. 7AEEF000: 'SSDT', 'INSYDE', Rev: 2, Len: 2522 -> SSDT-2-INSYDE.aml
+43:577  0:003    6. 7AEEE000: 'ASF!', 'INSYDE', Rev: 32, Len: 165 -> ASF!.aml
+43:580  0:002    7. 7AEED000: 'ASPT', 'INSYDE', Rev: 7, Len: 52 -> ASPT.aml
+43:583  0:003    8. 7AEEC000: 'BOOT', 'INSYDE', Rev: 1, Len: 40 -> BOOT.aml
+43:586  0:002    9. 7AEEB000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52 -> DBGP.aml
+43:588  0:002    10. 7AEE9000: 'HPET', 'INSYDE', Rev: 1, Len: 56 -> HPET.aml
+43:591  0:002    11. 7AEE8000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 188 -> APIC.aml
+43:594  0:002    12. 7AEE7000: 'MCFG', 'INSYDE', Rev: 1, Len: 60 -> MCFG.aml
+43:597  0:002    13. 7AEC6000: 'SSDT', 'INSYDE', Rev: 2, Len: 2028 -> SSDT-3-INSYDE.aml
+43:600  0:002    14. 7AEC5000: 'SSDT', 'INSYDE', Rev: 2, Len: 444 -> SSDT-4-INSYDE.aml
+43:602  0:002    15. 7AEC4000: 'LPIT', 'INSYDE', Rev: 1, Len: 148 -> LPIT.aml
+43:606  0:003    16. 7AEC3000: 'WSMT', 'INSYDE', Rev: 1, Len: 40 -> WSMT.aml
+43:608  0:002    17. 7AEC2000: 'SSDT', 'INSYDE', Rev: 2, Len: 671 -> SSDT-5-INSYDE.aml
+43:611  0:002    18. 7AEC1000: 'SSDT', 'INSYDE', Rev: 1, Len: 838 -> SSDT-6-INSYDE.aml
+43:614  0:002    19. 7AEBD000: 'SSDT', 'INSYDE', Rev: 2, Len: 12290 -> SSDT-7-INSYDE.aml
+43:617  0:002    20. 7AEBB000: 'SSDT', 'INSYDE', Rev: 2, Len: 1310 -> SSDT-8-INSYDE.aml
+43:620  0:003    21. 7AEBA000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52 -> DBGP.aml
+43:625  0:004    22. 7AEB9000: 'DBG2', 'INSYDE', Rev: 0, Len: 84 -> DBG2.aml
+43:627  0:002    23. 7AEB7000: 'SSDT', 'INSYDE', Rev: 2, Len: 4202 -> SSDT-9-INSYDE.aml
+43:630  0:003    24. 7AEB6000: 'SSDT', 'INSYDE', Rev: 2, Len: 3806 -> SSDT-10-INSYDE.aml (Found hidden SSDT 7 pcs)
+43:633  0:002        * 7A6B7018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1716  53 53 44 54 B4 06 00 00 02 F4 50 6D 52 65 66 00 Internal length = 1716 -> SSDT-x10_0-Cpu0Ist.aml
+43:636  0:002        * 7A6B6018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x10_1-ApIst.aml
+43:639  0:002        * 7A6B6898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x10_2-Cpu0Cst.aml
+43:642  0:002        * 7A6B6DD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 33 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x10_3-ApCst.aml
+43:645  0:003        * 7A6B7DD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 A8 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x10_4-Cpu0Hwp.aml
+43:648  0:002        * 7A6B7A98: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 EB 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x10_5-ApHwp.aml
+43:650  0:002        * 7A6B7898: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 36 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x10_6-HwpLvt.aml
+43:653  0:002  
+43:653  0:000    25. 7AEB4000: 'SSDT', 'INSYDE', Rev: 1, Len: 6938 -> SSDT-11-INSYDE.aml
+43:657  0:003    26. 7AEB3000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68 -> FPDT.aml
+43:660  0:003    27. 7AEB2000: 'BGRT', 'INSYDE', Rev: 1, Len: 56 -> BGRT.aml
+43:663  0:003    Tables in Rsdt: 28
+43:663  0:000    0. 7AEEA000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+43:663  0:000        (Dsdt: 7AEC7000, Facs: 7AE7D000, XDsdt: 7AEC7000, XFacs: 0)
+43:663  0:000        7AEC7000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 129673
+43:665  0:001        7AE7D000: 'FACS', Ver: 2, Len: 64
+43:665  0:000    1. 7AEFD000: 'UEFI', 'INSYDE', Rev: 1, Len: 566
+43:665  0:000    2. 7AEFC000: 'UEFI', 'INSYDE', Rev: 1, Len: 66
+43:665  0:000    3. 7AEF5000: 'SSDT', 'INSYDE', Rev: 1, Len: 25583
+43:665  0:000    4. 7AEF0000: 'SSDT', 'INSYDE', Rev: 2, Len: 12403
+43:665  0:000    5. 7AEEF000: 'SSDT', 'INSYDE', Rev: 2, Len: 2522
+43:665  0:000    6. 7AEEE000: 'ASF!', 'INSYDE', Rev: 32, Len: 165
+43:665  0:000    7. 7AEED000: 'ASPT', 'INSYDE', Rev: 7, Len: 52
+43:665  0:000    8. 7AEEC000: 'BOOT', 'INSYDE', Rev: 1, Len: 40
+43:665  0:000    9. 7AEEB000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52
+43:665  0:000    10. 7AEE9000: 'HPET', 'INSYDE', Rev: 1, Len: 56
+43:665  0:000    11. 7AEE8000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 188
+43:665  0:000    12. 7AEE7000: 'MCFG', 'INSYDE', Rev: 1, Len: 60
+43:665  0:000    13. 7AEC6000: 'SSDT', 'INSYDE', Rev: 2, Len: 2028
+43:665  0:000    14. 7AEC5000: 'SSDT', 'INSYDE', Rev: 2, Len: 444
+43:665  0:000    15. 7AEC4000: 'LPIT', 'INSYDE', Rev: 1, Len: 148
+43:665  0:000    16. 7AEC3000: 'WSMT', 'INSYDE', Rev: 1, Len: 40
+43:665  0:000    17. 7AEC2000: 'SSDT', 'INSYDE', Rev: 2, Len: 671
+43:665  0:000    18. 7AEC1000: 'SSDT', 'INSYDE', Rev: 1, Len: 838
+43:665  0:000    19. 7AEBD000: 'SSDT', 'INSYDE', Rev: 2, Len: 12290
+43:665  0:000    20. 7AEBB000: 'SSDT', 'INSYDE', Rev: 2, Len: 1310
+43:665  0:000    21. 7AEBA000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52
+43:665  0:000    22. 7AEB9000: 'DBG2', 'INSYDE', Rev: 0, Len: 84
+43:665  0:000    23. 7AEB7000: 'SSDT', 'INSYDE', Rev: 2, Len: 4202
+43:665  0:000    24. 7AEB6000: 'SSDT', 'INSYDE', Rev: 2, Len: 3806
+43:665  0:000    25. 7AEB4000: 'SSDT', 'INSYDE', Rev: 1, Len: 6938
+43:665  0:000    26. 7AEB3000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+43:665  0:000    27. 7AEB2000: 'BGRT', 'INSYDE', Rev: 1, Len: 56
