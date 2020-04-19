@@ -492,9 +492,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x0</string>
 		<key>MLB</key>
-		<string>C02533402HGGDVT1E</string>
+		<string>C12533402HGGDVT1E</string>
 		<key>ROM</key>
-		<data>lPajpCQs</data>
+		<data>lPajpCPs</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -507,9 +507,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,2</string>
 		<key>SerialNumber</key>
-		<string>C02VG08PHV2N</string>
+		<string>C02VH08PHV2N</string>
 		<key>SmUUID</key>
-		<string>1CB3720A-BB49-EE43-B8EE-83890C7DA805</string>
+		<string>1CB3720A-BB49-EE43-B8EE-83890C7DA806</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>
@@ -518,7 +518,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>1CB3720A-BB49-EE43-B8EE-83890C7DA805</string>
+		<string>1CB3720A-BB49-EE43-B8EE-83890C7DA806</string>
 		<key>ExposeSysVariables</key>
 		<true/>
 		<key>InjectKexts</key>
