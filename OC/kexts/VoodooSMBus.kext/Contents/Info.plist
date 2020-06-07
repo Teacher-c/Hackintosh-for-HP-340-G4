@@ -489,15 +489,15 @@
 			<key>Configuration</key>
 			<dict>
 				<key>DisableWhileTrackpoint</key>
-				<false/>
+				<true/>
 				<key>DisableWhileTrackpointTimeoutMs</key>
 				<string>500</string>
 				<key>DisableWhileTyping</key>
-				<false/>
+				<true/>
 				<key>DisableWhileTypingTimeoutMs</key>
 				<integer>400</integer>
 				<key>IgnoreSetTouchpadStatus</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>IOClass</key>
 			<string>ELANTouchpadDriver</string>

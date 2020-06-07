@@ -163,16 +163,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Method FRSP to XRSP</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>RlJTUAA=</data>
-					<key>Replace</key>
-					<data>WFJTUAA=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Method _PTS to ZPTS</string>
 					<key>Disabled</key>
 					<false/>
@@ -263,7 +253,7 @@
 	<key>CPU</key>
 	<dict>
 		<key>HWPEnable</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -280,7 +270,7 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAWWQ==</data>
 				<key>AAPL00,PanelCycleDelay</key>
-				<data>+gAAAA==</data>
+				<data>9AEAAA==</data>
 				<key>AAPL00,PanelPowerDown</key>
 				<data>PAAACA==</data>
 				<key>AAPL00,PanelPowerOff</key>
@@ -289,12 +279,27 @@
 				<data>GQEACA==</data>
 				<key>AAPL00,PanelPowerUp</key>
 				<data>MAAAAA==</data>
-				<key>device-id</key>
-				<data>FlkAAA==</data>
 				<key>graphic-options</key>
 				<data>DAAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel HD Graphics 620</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
+			<dict>
+				<key>reg-ltrovr</key>
+				<data>AAQAAAAAAAA=</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x4)</key>
+			<dict>
+				<key>reg-ltrovr</key>
+				<data>AAQAAAAAAAA=</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x5)</key>
+			<dict>
+				<key>reg-ltrovr</key>
+				<data>AAQAAAAAAAA=</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
@@ -357,13 +362,15 @@
 			<string>Preboot</string>
 			<string>VM</string>
 		</array>
+		<key>Language</key>
+		<string>zh-Hant:-16899</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
 			<false/>
 		</dict>
 		<key>PlayAsync</key>
-		<true/>
+		<false/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -377,6 +384,10 @@
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
+		<key>ShowOptimus</key>
+		<false/>
+		<key>TextOnly</key>
+		<false/>
 		<key>Theme</key>
 		<string>mac</string>
 	</dict>
@@ -427,62 +438,6 @@
 				<key>Replace</key>
 				<data>AAAAAAAAAAAAAAA=</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelLpssI2C</string>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelLpssI2CController</string>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Prevent Apple SMBus kexts from attaching to SMBUS controller</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleSMBusController</string>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Prevent Apple SMBus kexts from attaching to SMBUS controller</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleSMBusPCI</string>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -492,9 +447,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x0</string>
 		<key>MLB</key>
-		<string>C12533402HGGDVT1E</string>
+		<string>C02533402HGGDVT1E</string>
 		<key>ROM</key>
-		<data>lPajpCPs</data>
+		<data>lPajpCQs</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -507,9 +462,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,2</string>
 		<key>SerialNumber</key>
-		<string>C02VH08PHV2N</string>
+		<string>C02VG08PHV2N</string>
 		<key>SmUUID</key>
-		<string>1CB3720A-BB49-EE43-B8EE-83890C7DA806</string>
+		<string>1CB3720A-BB49-EE43-B8EE-83890C7DA805</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>
@@ -518,7 +473,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>1CB3720A-BB49-EE43-B8EE-83890C7DA806</string>
+		<string>1CB3720A-BB49-EE43-B8EE-83890C7DA805</string>
 		<key>ExposeSysVariables</key>
 		<true/>
 		<key>InjectKexts</key>

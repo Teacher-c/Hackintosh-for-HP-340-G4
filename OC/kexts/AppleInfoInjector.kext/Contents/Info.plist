@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.injector.AppleInfoInjector</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>AppleIntelPanelA</key>
+		<dict>
+			<key>ApplePanels</key>
+			<dict>
+				<key>F16T643d</key>
+				<data>
+				ABEAAAAYACcAOgBSAHEAlgDEAPwBQAGTAfYCbgL+A6oE
+				eAVp
+				</data>
+			</dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleBacklight</string>
+			<key>IOClass</key>
+			<string>AppleIntelPanelA</string>
+			<key>IODisplayParameters</key>
+			<dict>
+				<key>commit</key>
+				<dict>
+					<key>reg</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>IOMatchCategory</key>
+			<string>IODisplayParameters</string>
+			<key>IONameMatch</key>
+			<string>backlight</string>
+			<key>IOProbeScore</key>
+			<integer>2000</integer>
+			<key>IOProviderClass</key>
+			<string>IOACPIPlatformDevice</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2000-2020 Apple Inc. All rights reserved.</string>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
